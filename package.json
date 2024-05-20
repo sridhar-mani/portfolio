@@ -2,14 +2,13 @@
   "name": "react-javascript",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "http://sridhar-mani.github.io/portfolio", 
+  "homepage": "http://sridhar-mani.github.io/portfolio",
   "description": "React TypeScript on Replit, using Vite bundler",
-  
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "build": "react-scripts build && cp build/index.html build/404.html",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "preview": "vite preview"
   },
   "keywords": [],
@@ -26,6 +25,19 @@
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
-    "react-router-dom": "^6.23.1"
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

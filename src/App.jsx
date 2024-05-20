@@ -10,7 +10,7 @@ export default function App() {
   return (
     <main>
       <Navigation />
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Aboutme/>}></Route>
         <Route path="/projects" element={<Projects/>}></Route>
