@@ -1,0 +1,32 @@
+
+footer{
+    position: relative;
+    bottom: 0px;
+    padding: 50px 127px;
+    width: 100%;
+div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap:50px;
+    a{
+        i{
+            margin-right: 5px;
+        }
+        position: relative;
+        transition:all 1s ease;
+        &:hover{
+        color:#53c1de;
+        transform: scale(1.5);
+        }
+    
+    }
+
+
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+}

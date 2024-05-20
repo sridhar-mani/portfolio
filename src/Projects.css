@@ -1,3 +1,4 @@
-section{
-  margin: 0px 127px;
+.projects{
+  padding: 50px 127px;
+  border: 2px solid red;
 }

@@ -1,5 +1,6 @@
 article{
   padding: 50px 127px;
+  border: 2px solid red;
   background-position-y:50%;
   background-size: cover;
   h1{
@@ -8,6 +9,9 @@ article{
     transition: all 0.5s ease-in-out;
     &:hover{
       font-size: 55px;
+      background: linear-gradient(to right,#53c1de,#80bd01,#333333);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
       letter-spacing: 3px;
     }
   }

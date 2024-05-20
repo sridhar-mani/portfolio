@@ -2,7 +2,7 @@ import './Projects.css'
 
 export default function Projects(){
   return (
-    <section>
+    <section className='projects'>
       <div>
         <div>
           <h3>Calculator App</h3>
