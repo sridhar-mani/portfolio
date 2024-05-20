@@ -6,20 +6,9 @@ export default function Projects(){
       <div>
         <div>
           <h3>Calculator App</h3>
-          <img/>
+          <a href='https://sridhar-mani.github.io/calci/' alt=""/>
         </div>
-        <div>
-          <h3></h3>
-          <img/>
-        </div>
-      </div>
-      <div>
-        <div>          <h3></h3>
-        <img/>
-</div>
-        <div>          <h3></h3>
-        <img/>
-</div>
+
       </div>
     </section>
   )

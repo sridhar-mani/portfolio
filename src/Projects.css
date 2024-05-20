@@ -1,4 +1,25 @@
 .projects{
   padding: 50px 127px;
   border: 2px solid red;
+  object{
+    width: 1280px;
+    height: 720px;
+    border: 1px solid red;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    a{
+      background-image: url('src/assets/screen-capture.gif');
+      background-size: contain;
+      height: 220px;
+      width: 480px;
+    }
+  }
 }
